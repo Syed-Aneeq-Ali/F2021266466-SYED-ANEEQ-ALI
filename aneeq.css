@@ -1,0 +1,477 @@
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:black;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color:rgb(140, 208, 14);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.247); /* Border for each list item */
+    border-radius: 5px; /* Rounded corners for each box */
+    background-color: #fff; /* Background color for each box */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove the margin from the last item */
+}
+
+nav ul li a {
+    display: block; /* Ensures the anchor tag fills the li element */
+    color: black; /* Text color */
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-image:url(https://wallpapercave.com/wp/wp2552423.jpg);
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: lawngreen;
+}
+
+/* Product Section Styles */
+.products {
+    background-color:rgb(214, 237, 9);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.product {
+    margin-bottom: 30px;
+}
+
+.product img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.product p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+
+.flex_container_fourth{
+position: relative;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+top: 2px;
+gap: 50px;
+bottom: 50%;
+width: 92%;
+left: 4%;
+height: 400px;
+background-color:black;
+}
+
+
+.flex_items_fourth{
+position: relative;
+padding: 20px;
+flex-basis: 180px;
+color: white;
+height: 245px;
+margin-top: 10px;
+}
+
+
+.flex_items_fourth h1{
+margin:  -20px 7px 5px 0px
+}
+
+
+.flex_items_fourth p{
+font-size: small;
+padding: 22px 0px 0px 2px;
+opacity: 80%;
+}
+
+
+.but li a{
+color: #f5f1f1;
+text-decoration: none;
+}
+
+
+.but li{
+list-style-type: none;
+}
+
+
+.btn_s{
+font-family: 'Nunito Sans', sans-serif;
+margin: 32px 0px;
+padding: 6px 28px;
+background-color: rgb(18, 26, 39);
+border: 2px solid rgb(254, 250, 247);
+cursor: pointer;
+border-radius: 3px;
+}
+
+
+.btn_s:hover{
+background-color: rgb(212, 63, 17);
+}
+
+.social_icons{
+left: 2%;
+display: flex;
+justify-content:  space-evenly;
+flex-wrap: wrap;
+position: relative;
+top: 329px;
+height: 53px;
+left: -103px;
+flex-basis: 159px;
+
+} 
+
+
+.social_icons a:hover{
+cursor: pointer;
+text-decoration: underline;
+color: #131313;
+}
+
+
+.social_icons a img{
+width:22px;
+height: 22px;   
+}
+
+
+.social_icons .I:hover{
+transform: scale(1.2);
+}
+
+
+.social_icons .T:hover{
+transform: scale(1.2);
+}
+
+
+.social_icons .F:hover{
+transform: scale(1.2);
+}
+
+
+.social_icons .L:hover{
+transform: scale(1.2);
+}
+.ten_items_2{
+padding: 20px;
+flex-basis: 500px;
+color: rgb(10, 9, 9);
+height: 351px;
+justify-content: start;
+text-align: end;
+position: relative;
+top: 18px;
+}
+
+.ten_items h1{
+font-size: 45px;
+padding: 17px 4px 4px 0px;
+margin:  0px 4px 4px 0px;
+}
+
+
+.ten_items p{
+font-size: small;
+padding: 14px 0px 0px 2px;
+opacity: 60%;
+}
+
+
+.form-group input{
+border-radius: 5px;
+font-size: 11.5px;
+text-align: start;
+display: block;
+width: 440px;
+padding: 11px;
+border: 2px solid #a39c9c;
+margin: 4px auto;
+}
+
+
+.form-group_2 input{
+left: -25%;
+border-radius: 5px;
+font-size: 11.5px;
+text-align: start;
+display: block;
+width: 207px;
+padding: 11px;
+border: 2px solid #a39c9c;
+margin: 9px auto;
+position: relative;
+top: 10px;
+} 
+
+
+.form-group_3 input{
+left: 26%;
+border-radius: 5px;
+font-size: 11.5px;
+text-align: start;
+display: block;
+width: 209px;
+padding: 11px;
+border: 2px solid #a39c9c;
+margin: 9px auto;
+position: relative;
+top: -36px;
+}
+
+
+.form-group_4 .cars{
+border-radius: 5px;
+font-size: 11.5px;
+text-align: start;
+display: block;
+width: 440px;
+padding: 11px;
+border: 2px solid #a39c9c;
+margin: 4px auto;
+position: relative;
+top: -26px;
+left: 1%;
+}
+
+
+.form-group_5 textarea{
+border-radius: 5px;
+font-size: 11.5px;
+text-align: start;
+display: block;
+width: 440px;
+padding: 11px;
+border: 2px solid #a39c9c;
+margin: 4px auto;
+position: relative;
+top: -3px;
+left: 1%;
+height: 200px;
+}
+form-group_2 input:focus{
+background-color: rgb(255, 230, 222);
+}
+
+
+.form-group input:focus{
+background-color: rgb(255, 230, 222);
+}
+
+
+.form-group_3 input:focus{
+background-color: rgb(255, 230, 222);
+}
+
+
+.form-group_4 .cars:focus{
+background-color: rgb(255, 230, 222);
+}
+
+
+.form-group_5 textarea:focus{
+background-color: rgb(255, 230, 222);
+}   
+
+
+.but_ten_button li a{
+color: white;
+text-decoration: none;
+font-size: medium;
+}
+
+
+.but_ten_button li{
+list-style-type: none;
+color: white;
+}
+
+
+.btn_s_ten_button{
+font-family: 'Nunito Sans', sans-serif;
+margin: 41px 0px;
+padding: 6px 28px;
+border: 2px solid rgb(255, 118, 69);
+background-color: rgb(253, 126, 87);
+cursor: pointer;
+border-radius: 3px;
+right: 5%;
+position: absolute;
+width: 196%;
+}
+
+
+.btn_s_ten_button:hover{
+background-color: rgb(165, 161, 159);
+}
+.newsletter{
+text-align: left;
+height: 77px;
+position: relative;
+top: 172px;
+left: 377px;
+color: white;
+width: 22%;
+text-align: right;
+}
+
+
+.newsletter h4{
+font-size: 14px;
+margin-bottom: 16px;
+left: -8px;
+position: relative;
+}
+
+
+.form-group_newsletter input{
+left: -61%;
+border-radius: 4px;
+font-size: 12.5px;
+text-align: start;
+display: block;
+width: 434px;
+padding: 10px;
+
+}
+
+
+.button_newsletter li a{
+color: white;
+text-decoration: none;
+font-size: medium;
+}
+
+
+.button_newsletter li{
+list-style-type: none;
+}
+
+
+.btn_s_button_newsletter{
+font-family: 'Nunito Sans', sans-serif;
+margin: 41px 0px;
+padding: 15px 28px;
+border: 1px solid rgb(11, 11, 11);
+background-color: rgb(226, 11, 11);
+cursor: pointer;
+border-radius: 2px;
+right: -25%;
+position: relative;
+width: 39%;
+top: -140px;
+}
+.bcontainer{
+    position: relative;
+    width: 100vw; 
+    height: 100vh;
+}
+
+.btn_s_button_newsletter:hover{
+background-color: rgb(165, 161, 159);
+transition:ease-in-out ;
+}
+.btn_s_ten_button{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 41px 0px;
+    padding: 6px 28px;
+    border: 2px solid rgb(255, 118, 69);
+    background-color: rgb(253, 126, 87);
+    cursor: pointer;
+    border-radius: 3px;
+    right: 5%;
+    position: absolute;
+    width: 196%;
+}
+
+
+.btn_s_ten_button:hover{
+    background-color: rgb(165, 161, 159);
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #2eb8ea;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
